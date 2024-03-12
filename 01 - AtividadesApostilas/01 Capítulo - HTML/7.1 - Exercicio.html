@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 7.1</title>
+    </head>
+    <body>
+
+        <div>
+            <h3>
+                <b>Exercício:</b>  Crie um formulário HTML com um campo de texto para o atributo nome e um botão
+                de envio. Utilize o atributo action do elemento form para enviar o formulário para uma página
+                PHP ou outro script do lado do servidor
+            </h3>
+        </div>
+        <hr>
+        
+        <form action="processaFormulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <button type="submit">Enviar</button>
+        </form>
+          
+    </body>
+</html>
