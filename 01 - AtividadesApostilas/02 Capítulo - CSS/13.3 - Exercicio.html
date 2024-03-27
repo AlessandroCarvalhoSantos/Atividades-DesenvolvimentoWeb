@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 13.3</title>
+    <style>
+        .flex-container {
+            display: flex;
+        }
+        .flex-item {
+            flex-grow: 1;
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        .flex-item:nth-child(3) {
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <h3>
+            <b>Exercício:</b> Dentro de um contêiner flexbox, coloque cinco itens flexbox. Faça com que o terceiro
+            item cresça duas vezes mais que os outros itens, usando a propriedade flex-grow.
+        </h3>
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+        <div class="flex-item">Item 5</div>
+    </div>
+</body>
+</html>
